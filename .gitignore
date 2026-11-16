@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# scan output and repair artefacts
+scan*.csv
+after*.csv
+*.png
+!examples/*.png
+bak/
+backup*/
+*.bak
